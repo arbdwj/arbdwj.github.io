@@ -3,8 +3,8 @@ title: arbdwj
 #email: 
 #description: "Highly opinionated experimental results"
 baseurl: ""
-url: "http://arambharadwaj.github.io"
-github_username:  arambharadwaj
+url: "http://arbdwj.github.io"
+github_username:  arbdwj
 
 # Build settings
 markdown: kramdown
