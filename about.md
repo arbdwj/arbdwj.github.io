@@ -11,3 +11,5 @@ I am interested in AI safety, Indology and statistics in that order.
 
 You can read my research papers [here](https://scholar.google.com/citations?user=JE6ZNToAAAAJ).
 
+You can find my latest CV [here]({{ site.baseurl }}/cv/cv.pdf).
+

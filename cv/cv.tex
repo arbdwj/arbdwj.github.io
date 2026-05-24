@@ -1,0 +1,113 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.6in]{geometry}
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{array}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{14pt}{8pt}
+
+% Custom commands
+\newcommand{\itemwithdate}[2]{\item \textbf{#1} \hfill #2}
+\newcommand{\entrygap}{\vspace{8pt}}
+
+\begin{document}
+
+% Header
+\begin{center}
+\textbf{\Large Aryasomayajula Ram Bharadwaj} \\
+\vspace{4pt}
+London, UK | \href{https://github.com/arbdwj}{GitHub} | \href{https://www.linkedin.com/in/arbharadwaj97/}{LinkedIn} | \href{https://fullwrong.com}{Blog} | \href{mailto:ram.bharadwaj.arya@gmail.com}{ram.bharadwaj.arya@gmail.com} | +91-9108832338
+\end{center}
+
+\vspace{8pt}
+\section{Professional Summary}
+AI safety researcher and engineer with 6+ years developing production AI systems and leading engineering teams. Experience spans interpretability and LLM evaluations. Currently researching evaluation awareness in large language models.
+
+
+\section{Experience}
+
+\textbf{AI Safety Researcher - LASR Labs @ Arcadia Impact} \hfill \textbf{Jan 2026 -- Present} \\
+\textit{London AI Safety Research (LASR) Labs} \\[2pt]
+\textit{EvalAwareBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models.} \\
+\textbf{Aryasomayajula R.~Bharadwaj}, K.~Ochwangi, X.~Li. Under review at NeurIPS 2026.
+\begin{itemize}[leftmargin=*, nosep]
+\item Co-designed the framework for measuring whether frontier LLMs distinguish evaluation from deployment contexts; built to integrate with any Inspect-compatible eval suite.
+\item Led the generator-identity analysis: showed that the model generating a deployment transcript systematically biases evaluation-awareness scores, and explored methods to mitigate the effect.
+\end{itemize}
+
+\entrygap
+\textbf{Associate Technical Architect} \hfill \textbf{Nov 2024 -- Dec 2025} \\
+\textit{Quantiphi Analytics, Bengaluru}
+\begin{itemize}[leftmargin=*, nosep]
+\item Designed AI agent system for automated issue severity classification and escalation management.
+\item Architected conversational AI-agent chatbot for a major telecom company's sales team, refactoring legacy systems to LangGraph and reducing codebase size significantly.
+\item Revamped RAG data ingestion pipeline, improving retrieval accuracy by 20\% and reducing time to first token by 3x.
+\end{itemize}
+
+\entrygap
+\textbf{Senior Developer - Innovation \& Development Labs} \hfill \textbf{June 2019 -- Nov 2024} \\
+\textit{Musigma Business Solutions, Bengaluru}
+\begin{itemize}[leftmargin=*, nosep]
+\item Led a team building a semi-autonomous data analysis platform using AutoGen, with automated prompt optimization and  locally hosted LLMs.
+\item Built and maintained a high-velocity trading platform: migrated deployment to Kubernetes, rewrote trade-signal generation from R to Scala (Akka), enabling near real-time portfolio visualization.
+\item Developed ML model operationalization platform with automatic retraining pipelines and canary/blue-green deployment strategies.
+\item Received 6 Star Performer awards and 2 Impact Awards for technical leadership and delivery excellence.
+\end{itemize}
+
+\section{Fellowships \& Residencies}
+
+\textbf{AI Resident - Lossfunk AI Residency} \hfill \textbf{May 2025 -- June 2025} \\
+\textit{Lossfunk AI Residency}
+\begin{itemize}[leftmargin=*, nosep]
+\item Selected (5\% acceptance rate) for intensive in-person AI residency program with 10 researchers, focused on independent technical research in interpretability. Built \href{https://github.com/arbdwj/pid_steering}{PID-Steering}, exploring activation steering with closed-loop control.
+\end{itemize}
+
+\section{Research \& Publications}
+
+\textbf{EvalAwareBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models} \hfill \textbf{Under review, NeurIPS 2026} \\
+\textit{\textbf{Aryasomayajula R.~Bharadwaj}, K.~Ochwangi, X.~Li}
+\begin{itemize}[leftmargin=*, nosep]
+\item Open benchmark measuring whether frontier LLMs distinguish evaluation from deployment contexts; integrates with any Inspect-compatible eval suite.
+\end{itemize}
+
+\entrygap
+\textbf{\href{https://arxiv.org/abs/2412.04537}{Understanding Hidden Computations in Transformer Language Models}} \hfill \textbf{August 2024} \\
+\textit{Lead Investigator}
+\begin{itemize}[leftmargin=*, nosep]
+\item Investigated and interpreted how filler tokens work in chain-of-thought reasoning in transformer language models.
+\end{itemize}
+
+\section{Awards \& Recognitions}
+
+\textbf{AI Alignment Awards - Winner} \hfill \textbf{July 2023} \\
+\textit{\href{https://www.lesswrong.com/posts/zFoAAD7dfWdczxoLH/winners-of-ai-alignment-awards-research-contest}{AI Safety Research Competition}}
+\begin{itemize}[leftmargin=*, nosep]
+\item Selected among 118 global entries for winning research proposal on ``goal misgeneralization'' in AI systems.
+\end{itemize}
+
+\entrygap
+\textbf{Honorable Mention - Eliciting Latent Knowledge} \hfill \textbf{March 2022} \\
+\textit{Alignment Research Center}
+\begin{itemize}[leftmargin=*, nosep]
+\item Recognized for innovative approach to open research problem in AI safety.
+\end{itemize}
+
+\entrygap
+\textbf{Bronze Medal - Build-on-Redis Hackathon} \hfill \textbf{February 2021} \\
+\textit{Redis Labs}
+\begin{itemize}[leftmargin=*, nosep]
+\item Developed text-to-code search tool using CodeBERT embeddings and Redis Stack for private repository indexing.
+\end{itemize}
+
+\section{Education}
+
+\textbf{Bachelor of Technology -- Electronics and Communications Engineering} \hfill \textbf{2015--2019} \\
+\textit{GMR Institute of Technology, Andhra Pradesh}
+
+\end{document}
