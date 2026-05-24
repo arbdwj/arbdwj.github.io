@@ -27,7 +27,8 @@ London, UK | \href{https://github.com/arbdwj}{GitHub} | \href{https://www.linked
 
 \vspace{8pt}
 \section{Professional Summary}
-AI safety researcher and engineer with 6+ years developing production AI systems and leading engineering teams. Experience spans interpretability and LLM evaluations. Currently researching evaluation awareness in large language models.
+Engineer turned AI safety researcher. Built production AI systems and led engineering teams before moving into research on interpretability and LLM evaluations. Currently researching evaluation awareness in large language models.
+
 
 
 \section{Experience}
@@ -37,8 +38,9 @@ AI safety researcher and engineer with 6+ years developing production AI systems
 \textit{EvalAwareBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models.} \\
 K.~Ochwangi$^*$, X.~Li, \textbf{Aryasomayajula R.~Bharadwaj}$^*$. Under review at NeurIPS 2026. \textit{$^*$Equal contribution.}
 \begin{itemize}[leftmargin=*, nosep]
-\item Co-designed the framework for measuring whether frontier LLMs distinguish evaluation from deployment contexts; built to integrate with any Inspect-compatible eval suite.
-\item Led the generator-identity analysis: showed that the model generating a deployment transcript systematically biases evaluation-awareness scores, and explored methods to mitigate the effect.
+\item Co-designed an open, Inspect-compatible pipeline for measuring evaluation awareness in frontier LLMs.
+\item Identified a novel generator-identity confound in evaluation-awareness measurement: the model generating deployment transcripts systematically biases judge scores -- an effect prior work did not isolate, and one large enough to reorder model rankings.
+\item Proposed a covariate-adjusted AUROC that corrects for the confound, restoring measurement validity with minimal error.
 \end{itemize}
 
 \entrygap
@@ -64,22 +66,24 @@ K.~Ochwangi$^*$, X.~Li, \textbf{Aryasomayajula R.~Bharadwaj}$^*$. Under review a
 
 \textbf{AI Resident - \href{https://lossfunk.com/residency/}{Lossfunk AI Residency}} \hfill \textbf{May 2025 -- June 2025}
 \begin{itemize}[leftmargin=*, nosep]
-\item Selected (5\% acceptance rate) for intensive in-person AI residency program with 10 researchers, focused on independent technical research in interpretability. Built \href{https://github.com/arbdwj/pid_steering}{PID-Steering}, exploring activation steering with closed-loop control.
+\item Selected (5\% acceptance, 10 researchers) for an in-person residency focused on independent technical research in interpretability.
+\item Built \href{https://github.com/arbdwj/pid_steering}{\textbf{PID-Steering}}: extended activation steering by treating the steering coefficient as a controlled variable updated each token via PID feedback on an observed behavioural signal, addressing the brittleness of open-loop steering vectors.
 \end{itemize}
-
+\newpage
 \section{Research \& Publications}
 
-\textbf{EvalAwareBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models} \hfill \textbf{Under review, NeurIPS 2026} \\
+\textbf{\href{https://evalawarebench.com}{EvalAwareBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models}} \hfill \textbf{Under review, NeurIPS 2026} \\
 \textit{K.~Ochwangi$^*$, X.~Li, \textbf{Aryasomayajula R.~Bharadwaj}$^*$ \textmd{($^*$Equal contribution)}}
 \begin{itemize}[leftmargin=*, nosep]
-\item Open benchmark measuring whether frontier LLMs distinguish evaluation from deployment contexts; integrates with any Inspect-compatible eval suite.
+\item Open, Inspect-compatible benchmark for evaluation-awareness measurement. Identifies two methodological choices in prior work -- probe-question transfer across model families and transcript-generator identity -- that introduce systematic bias and can reorder model rankings; proposes per-model probe calibration and a stratified generator-harmonisation correction.
 \end{itemize}
 
 \entrygap
-\textbf{\href{https://arxiv.org/abs/2412.04537}{Understanding Hidden Computations in Transformer Language Models}} \hfill \textbf{August 2024} \\
-\textit{Lead Investigator}
+\textbf{\href{https://arxiv.org/abs/2412.04537}{Understanding Hidden Computations in Chain-of-Thought Reasoning}} \hfill \textbf{arXiv:2412.04537, Dec 2024} \\
+\textit{Sole author}
 \begin{itemize}[leftmargin=*, nosep]
-\item Investigated and interpreted how filler tokens work in chain-of-thought reasoning in transformer language models.
+\item Investigated whether transformer models trained with filler-token CoT (e.g., ``\dots'') perform genuinely hidden serial computation, or whether the discarded reasoning trace remains recoverable from internal activations -- directly relevant to faithful-CoT and unfaithful chain-of-thought debates.
+\item Used layer-wise logit-lens analysis and token-rank inspection to decode the original non-filler characters from intermediate residual-stream representations without loss of downstream performance, showing the computation is encoded in the activations rather than inaccessible.
 \end{itemize}
 
 \section{Awards \& Recognitions}
