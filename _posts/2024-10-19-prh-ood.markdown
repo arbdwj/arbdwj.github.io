@@ -3,44 +3,11 @@ layout: post
 title: "Experiments with the Platonic Representation Hypothesis"
 excerpt: "Investigating the validity of PRH in OOD setting"
 date:   2024-10-27 10:00:00
+link: https://www.lesswrong.com/posts/Su2pg7iwBM55yjQdt/exploring-the-platonic-representation-hypothesis-beyond-in
 mathjax: false
 comments: false
 ---
 
-### Introduction
+Testing whether the Platonic Representation Hypothesis — that models across modalities converge to a shared statistical model of reality — still holds once you move beyond in-distribution data.
 
-The [Platonic Representation Hypothesis](https://arxiv.org/pdf/2405.07987) (PRH) suggests that neural networks, despite being trained with different objectives and on various modalities, converge to a shared statistical understanding of reality. Inspired by Plato's Allegory of the Cave, PRH posits that models across domains—such as vision and language—internalize similar structures, reflecting an idealized model of the world. While initial experiments focused on image-based models like Vision Transformers (ViT) trained on the same pretraining dataset (ImageNet), this raises an important question:
-
-### Does PRH hold only when models are trained on data from the same distribution?
-
-To evaluate PRH beyond in-distribution data, I extended experiments to three scenarios:
-
-   - **In-distribution data:** Utilized the validation set from Places365, aligning closely with the training data of many vision models.
-   - **Out-of-distribution (OOD) data:** Employed the [ImageNet-O](https://arxiv.org/pdf/1907.07174) dataset, containing images that diverge significantly from the standard ImageNet distribution.
-   - **Random noise:** Generated purely random images to probe the extreme boundaries of representational alignment.
-
-### Results:
-
-#### In-Distribution Setting
-
-<img src="/assets/prh_correlation_plot.png" alt="Spearman rank correlation between models on Places365's validation data" style="width:100%; height:auto;">
-
-*Figure 1: Spearman rank correlation between models on Places365's validation data, indicating a high degree of alignment in in-distribution data.* This graph is straight from the platonic-representation-hypothesis paper. The ViT models used in this experiment are trained more or less on the same data distribution/pretraining datasets. 
-
-#### Out-of-Distribution Data
-
-<img src="/assets/spearman_correlation_ood_prh.png" alt="Alignment of vision models on the ImageNet-O dataset" style="width:100%; height:auto;">
-
-*Figure 2: Alignment of vision models on the ImageNet-O dataset. Spearman correlation suggests that even with OOD data, models maintain a shared statistical representation, models converge in their representations, implying PRH still holds true and generalizes well outside the training distribution of the model's training set. This fact has really good implications in understanding failure models and alignment failures of models belonging to same architectural family
-
-#### Random Noise Data
-
-<img src="/assets/prh_correlation_rnd.png" alt="Spearman correlation of alignment scores on random noise data" style="width:80%; height:auto; display: block; margin-left: auto; margin-right: auto;">
-
-*Figure 3: Spearman correlation of alignment scores on random noise data. The lower correlation values indicate a breakdown in representational alignment, suggesting that random data lacks the underlying structure required for PRH.* This means that PRH is not just a random occurance but requires some statistical-structure to be present.
-
-### Discussion
-
-When I first came across the PRH paper, my initial hypothesis was that PRH might be primarily due to the high similarity in training datasets, since most LLMs/LVMs are trained on extremely large datasets from common sources (ImageNet, Pile, etc.). However, the OOD experiments proved that this phenomenon of shared statistical structure generalizes well beyond the training distribution of the models. Further experiments with purely random data demonstrated that this is not just a coincidence but rather reflects inherent statistical structures present in "useful" data across all modalities.
-
-The code for experiments and analysis in this paper is available on GitHub [here]([https://github.com/rokosbasilisk/prh-experiments](https://github.com/rokosbasilisk/platonic-rep/)).
+[Read it on LessWrong →]({{ page.link }})
