@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"page-heading\\\\|page-content\\\\|^p \\\\|^p,\\\\| p {\" /Users/rambharadwaj/arbdwj.github.io/css/main.css)"
+    ]
+  }
+}
