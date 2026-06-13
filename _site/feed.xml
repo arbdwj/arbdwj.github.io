@@ -3,10 +3,10 @@
   <channel>
     <title>arbdwj</title>
     <description></description>
-    <link>http://arbdwj.github.io/</link>
-    <atom:link href="http://arbdwj.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 10 Jun 2026 13:21:14 +0100</pubDate>
-    <lastBuildDate>Wed, 10 Jun 2026 13:21:14 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 13 Jun 2026 15:05:29 +0100</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2026 15:05:29 +0100</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -16,8 +16,8 @@
 &lt;p&gt;&lt;a href=&quot;https://www.lesswrong.com/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3&quot;&gt;Read it on LessWrong →&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Jun 2026 13:00:00 +0100</pubDate>
-        <link>http://arbdwj.github.io/2026/06/10/tracing-eval-awareness-olmo3/</link>
-        <guid isPermaLink="true">http://arbdwj.github.io/2026/06/10/tracing-eval-awareness-olmo3/</guid>
+        <link>http://localhost:4000/2026/06/10/tracing-eval-awareness-olmo3/</link>
+        <guid isPermaLink="true">http://localhost:4000/2026/06/10/tracing-eval-awareness-olmo3/</guid>
         
         
       </item>
@@ -29,37 +29,8 @@
 &lt;p&gt;&lt;a href=&quot;https://www.lesswrong.com/posts/rWBYQXJTHBmCBCLEk/scaling-laws-for-llm-based-data-compression&quot;&gt;Read it on LessWrong →&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 23 Jul 2025 11:00:00 +0100</pubDate>
-        <link>http://arbdwj.github.io/2025/07/23/scaling-compression/</link>
-        <guid isPermaLink="true">http://arbdwj.github.io/2025/07/23/scaling-compression/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The God&apos;s Song</title>
-        <description>&lt;p&gt;They lit fires in the woods they cleared, and with fire came worship. Old people turned inward, toward stillness, toward silence.&lt;/p&gt;
-
-&lt;p&gt;Wars broke. Races mingled. Gods were shared in smoky air. Some brought rituals, others talked about the soul. And a ladder was built. Those closest to fire rose, those mixed with earth sowed.&lt;/p&gt;
-
-&lt;p&gt;Rituals deepened, but work did not stop. After each fire, they asked: “What is the point of it all?” These questions became forest wisdom, echoes in quiet minds.&lt;/p&gt;
-
-&lt;p&gt;Knowledge passed, but only to some. The rest were needed, to keep the wheels turning, to keep the fire alive.&lt;/p&gt;
-
-&lt;p&gt;The ones atop became scribes. They listened to bards, wove myths into lines, and slowly, a religion grew.&lt;/p&gt;
-
-&lt;p&gt;Centuries passed. Ascetics multiplied. Top to bottom, silence spread.&lt;/p&gt;
-
-&lt;p&gt;Then came the kid from the south, fire in mind, not bound to rite nor retreat. He debated all, rose swift, found the land’s greatest tale: the grand war.&lt;/p&gt;
-
-&lt;p&gt;In its heart, the great dark warrior, in trance, speaking of inaction, yet exalting action. One mind in all forms, he said. Use them fully, there is no better thing.&lt;/p&gt;
-
-&lt;p&gt;The kid was moved. He wrote as none before. “This is the truth,” he said “All is one, but action must go on.”&lt;/p&gt;
-
-&lt;p&gt;And so ends the god’s song.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Jun 2025 13:19:00 +0100</pubDate>
-        <link>http://arbdwj.github.io/2025/06/10/on-gita/</link>
-        <guid isPermaLink="true">http://arbdwj.github.io/2025/06/10/on-gita/</guid>
+        <link>http://localhost:4000/2025/07/23/scaling-compression/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/07/23/scaling-compression/</guid>
         
         
       </item>
@@ -71,8 +42,8 @@
 &lt;p&gt;&lt;a href=&quot;https://www.lesswrong.com/posts/Su2pg7iwBM55yjQdt/exploring-the-platonic-representation-hypothesis-beyond-in&quot;&gt;Read it on LessWrong →&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 27 Oct 2024 10:00:00 +0000</pubDate>
-        <link>http://arbdwj.github.io/2024/10/27/prh-ood/</link>
-        <guid isPermaLink="true">http://arbdwj.github.io/2024/10/27/prh-ood/</guid>
+        <link>http://localhost:4000/2024/10/27/prh-ood/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/10/27/prh-ood/</guid>
         
         
       </item>
@@ -84,8 +55,8 @@
 &lt;p&gt;&lt;a href=&quot;https://www.lesswrong.com/posts/3duPFzDDX8myY6q4K/understanding-hidden-computations-in-chain-of-thought&quot;&gt;Read it on LessWrong →&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 28 Aug 2024 02:49:00 +0100</pubDate>
-        <link>http://arbdwj.github.io/2024/08/28/fillertokens/</link>
-        <guid isPermaLink="true">http://arbdwj.github.io/2024/08/28/fillertokens/</guid>
+        <link>http://localhost:4000/2024/08/28/fillertokens/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/08/28/fillertokens/</guid>
         
         
       </item>
@@ -97,8 +68,8 @@
 &lt;p&gt;&lt;a href=&quot;https://www.lesswrong.com/posts/MWSCqzPrAbNrYoqWv/goal-misgeneralization-is-elk-hard&quot;&gt;Read it on LessWrong →&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 24 Mar 2023 10:00:00 +0000</pubDate>
-        <link>http://arbdwj.github.io/2023/03/24/goalmisgen/</link>
-        <guid isPermaLink="true">http://arbdwj.github.io/2023/03/24/goalmisgen/</guid>
+        <link>http://localhost:4000/2023/03/24/goalmisgen/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/03/24/goalmisgen/</guid>
         
         
       </item>
@@ -110,8 +81,8 @@
 &lt;p&gt;&lt;a href=&quot;https://www.lesswrong.com/posts/axxnpQi8FyBPE4rbq/hutter-prize-for-prompts&quot;&gt;Read it on LessWrong →&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 24 Mar 2023 09:00:00 +0000</pubDate>
-        <link>http://arbdwj.github.io/2023/03/24/hutter-prize-for-prompts/</link>
-        <guid isPermaLink="true">http://arbdwj.github.io/2023/03/24/hutter-prize-for-prompts/</guid>
+        <link>http://localhost:4000/2023/03/24/hutter-prize-for-prompts/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/03/24/hutter-prize-for-prompts/</guid>
         
         
       </item>
@@ -123,8 +94,8 @@
 &lt;p&gt;&lt;a href=&quot;https://www.lesswrong.com/posts/hqzHbew35Jx4xoDhE/the-agi-needs-to-be-honest&quot;&gt;Read it on LessWrong →&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 16 Oct 2021 11:00:00 +0100</pubDate>
-        <link>http://arbdwj.github.io/2021/10/16/truth/</link>
-        <guid isPermaLink="true">http://arbdwj.github.io/2021/10/16/truth/</guid>
+        <link>http://localhost:4000/2021/10/16/truth/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/10/16/truth/</guid>
         
         
       </item>
