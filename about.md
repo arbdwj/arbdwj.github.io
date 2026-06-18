@@ -5,11 +5,6 @@ permalink: /about/
 includelink: true
 ---
 
-Hey, I am Ram Bharadwaj, an independent AI safety researcher.
+I am Ram Bharadwaj, an AI safety researcher with interests in AI safety and Indology.
 
-I am interested in AI safety, Indology and statistics in that order.
-
-You can read my research papers [here](https://scholar.google.com/citations?user=JE6ZNToAAAAJ).
-
-You can find my CV [here]({{ site.baseurl }}/cv/cv.pdf).
-
+My publications are available on Google Scholar [here](https://scholar.google.com/citations?user=JE6ZNToAAAAJ), and my CV is available [here]({{ site.baseurl }}/cv/cv.pdf).
