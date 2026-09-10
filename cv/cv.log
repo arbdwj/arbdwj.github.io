@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.21)  10 SEP 2026 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.21)  10 SEP 2026 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,14 +299,8 @@ Package hyperref Info: Link coloring ON on input line 19.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 75.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
- [2] (./cv.aux)
+al/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2] (./c
+v.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -315,24 +309,23 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: B8E752CE05EA3A54DA8A0473B672BAE7;828.
  ) 
 Here is how much of TeX's memory you used:
- 9321 strings out of 467525
- 143582 string characters out of 5418982
+ 9304 strings out of 467525
+ 143390 string characters out of 5418982
  579829 words of memory out of 5000000
- 38154 multiletter control sequences out of 15000+600000
- 632726 words of font info for 56 fonts, out of 8000000 for 9000
+ 38143 multiletter control sequences out of 15000+600000
+ 630287 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,397b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 ></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
-sr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
-r/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on cv.pdf (2 pages, 116495 bytes).
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
+usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on cv.pdf (2 pages, 108146 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
