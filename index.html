@@ -1,22 +1,51 @@
 ---
-layout: default
+layout: home
+title: Ram Bharadwaj
+description: Ram Bharadwaj, AI safety researcher working on evaluation awareness and AI control in frontier language models.
 ---
+<div class="header">
+    <div class="header-text">
+        <h1>Ram Bharadwaj</h1>
+        <div class="section">
+            <h2>About</h2>
+            <p>
+                I am a software engineer turned AI safety researcher. You can find me on <a href="https://x.com/arbdwj">Twitter</a> and <a href="https://www.linkedin.com/in/arbharadwaj97/">LinkedIn</a>.<br>
+                My <a href="{{ site.baseurl }}/cv/cv.pdf">CV</a> and <a href="https://github.com/arbdwj">GitHub</a> can be accessed here.<br>
+                <span style="white-space: nowrap;">Email: ram.bharadwaj.arya [at] gmail [dot] com</span>
+            </p>
+        </div>
+    </div>
+    <img src="{{ site.baseurl }}/assets/dp/commondp.png" alt="Ram Bharadwaj">
+</div>
 
-<div class="home">
-  
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        {% if post.link %}
-        <a class="post-link" href="{{ post.link }}">{{ post.title }} ↗</a>
-        {% else %}
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        {% endif %}
-        <br>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
-
+<div class="section">
+    <h2>Selected Posts &amp; Publications</h2>
+    <p>
+        <strong><a href="https://www.alignmentforum.org/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3">Tracing Eval-Awareness Emergence Through Training of OLMo 3</a></strong><br>
+        <strong>Ram Bharadwaj</strong>, Robert Kirk<br>
+        <em>Alignment Forum, 2026</em>
+    </p>
+    <p>
+        <strong><a href="https://arxiv.org/abs/2609.01611">EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models</a></strong><br>
+        Xinning Li<sup>*</sup>, Kemunto Ochwang'i<sup>*</sup>, <strong>Ram Bharadwaj</strong><sup>*</sup>, Alexandra Souly, Robert Kirk<br>
+        <em>NeurIPS 2026 Evaluations &amp; Datasets Track (Poster)</em>
+    </p>
+    <p>
+        <strong><a href="https://arxiv.org/abs/2412.04537">Understanding Hidden Computations in Chain-of-Thought Reasoning</a></strong><br>
+        <strong>Ram Bharadwaj</strong><br>
+        <em>arXiv, 2024</em> &middot; <a href="https://www.lesswrong.com/posts/3duPFzDDX8myY6q4K/understanding-hidden-computations-in-chain-of-thought" target="_blank">LessWrong post</a>
+    </p>
+    <p>
+        <strong><a href="https://www.lesswrong.com/posts/Su2pg7iwBM55yjQdt/exploring-the-platonic-representation-hypothesis-beyond-in">Experiments with the Platonic Representation Hypothesis</a></strong><br>
+        <strong>Ram Bharadwaj</strong><br>
+        <em>LessWrong, 2024</em>
+    </p>
+    <p>
+        <strong><a href="https://www.lesswrong.com/posts/hqzHbew35Jx4xoDhE/the-agi-needs-to-be-honest">The AGI Needs to Be Honest</a></strong><br>
+        <strong>Ram Bharadwaj</strong><br>
+        <em>LessWrong, 2021</em>
+    </p>
+    <p>
+        <sup>*</sup>Equal contribution
+    </p>
 </div>
