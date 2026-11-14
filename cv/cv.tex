@@ -31,10 +31,15 @@
 \textbf{LASR Labs @ Arcadia Impact} \hfill \textbf{Jan 2026 -- Present} \\
 \textit{London AI Safety Research Labs, with the UK AI Security Institute, London, UK} \\[2pt]
 \textbf{AI Safety Researcher} (funded extension) \hfill Jul 2026 -- Present \\[1pt]
+First author of \href{https://www.lesswrong.com/posts/aaEpb2s5Yjspmiyk2/does-expecting-automated-grading-degrade-models-research-2}{\textit{Does Expecting Automated Grading Degrade Models' Research Taste?}} -- LessWrong, 2026.
+\begin{itemize}[leftmargin=*, nosep]
+\item Investigated whether a belief that an automated verifier, not a human, would grade a model's answers (via synthetic-document finetuning and activation steering); on the TASTE research-judgement benchmark this lowered agreement with expert reviewers and shifted reasoning toward feasibility over conceptual contribution.
+\end{itemize}
+\vspace{2pt}
 First author of \href{https://www.alignmentforum.org/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3}{\textit{Tracing Eval-Awareness Emergence Through Training of OLMo 3}} -- Alignment Forum, 2026.
 \begin{itemize}[leftmargin=*, nosep]
 \item Used stepwise model-checkpoints to attribute the emergence of evaluation awareness  to specific training stages in OLMo-3 models.
-\item Awarded a 30,000-hour compute grant on the Isambard supercomputer (Bristol Centre for Supercomputing) to study how grader awareness emerges during training.
+\item Awarded a 30,000-hour compute grant on the Bristol Centre for Supercomputing's Isambard supercomputer to study how grader awareness emerges during training.
 \end{itemize}
 \vspace{4pt}
 \textbf{Research Fellow} \hfill Jan 2026 -- Apr 2026 \\[1pt]
@@ -71,11 +76,18 @@ Co-first author of \href{https://arxiv.org/abs/2609.01611}{\textit{EvalDetectBen
 \textbf{AI Resident - \href{https://lossfunk.com/residency/}{Lossfunk AI Residency}} \hfill \textbf{May 2025 -- June 2025}
 \begin{itemize}[leftmargin=*, nosep]
 \item Selected (5\% acceptance, 10 researchers) for an in-person residency focused on independent technical research in interpretability.
-\item Built \href{https://github.com/arbdwj/pid_steering}{\textbf{PID-Steering}}: extended activation steering by treating the steering coefficient as a controlled variable updated each token via PID feedback on an observed behavioural signal, addressing the brittleness of open-loop steering vectors.
+\item Built \href{https://github.com/arbdwj/pid_steering}{\textbf{PID-Steering}}: closed-loop activation steering that updates the steering coefficient each token via PID feedback on an observed behavioural signal, avoiding the brittleness of open-loop steering vectors.
 \end{itemize}
-\newpage
 \section{Research \& Publications}
 
+\textbf{\href{https://www.lesswrong.com/posts/aaEpb2s5Yjspmiyk2/does-expecting-automated-grading-degrade-models-research-2}{Does Expecting Automated Grading Degrade Models' Research Taste?}} \\
+\textit{\textbf{Aryasomayajula R.~Bharadwaj}, R.~Kirk} \hfill \textbf{LessWrong, 2026}
+\begin{itemize}[leftmargin=*, nosep]
+\item Tested whether a model's belief about who grades its work changes its research judgement: three open-weights models were led to expect either an automated grader or a human reviewer, via synthetic-document finetuning and activation steering, then evaluated on the TASTE benchmark of expert-rated AI-safety research proposals.
+\item Under the machine-grader belief, models agreed less with expert reviewers and their reasoning shifted toward feasibility and execution constraints and away from conceptual depth -- a concern for automated AI-safety research.
+\end{itemize}
+
+\entrygap
 \textbf{\href{https://www.alignmentforum.org/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3}{Tracing Evaluation-Awareness Emergence Through Training of OLMo-3}} \\
 \textit{\textbf{Aryasomayajula R.~Bharadwaj}, R.~Kirk} \hfill \textbf{Alignment Forum, 2026}
 \begin{itemize}[leftmargin=*, nosep]
